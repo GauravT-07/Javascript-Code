@@ -20,6 +20,14 @@ function swim() {
 
 swim()
 
+// Output of this script :
+/*
+Gaurav
+undefined
+undefined
+3
+Mumbai
+*/
 
 /*
 Important Notes:
