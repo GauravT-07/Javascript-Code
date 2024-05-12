@@ -10,6 +10,9 @@ function Food(name,price){
     this.category = 'Food';
 }
 
+const chai = new Food("Indian", 400)
+console.log(chai);
+
 console.log(new Food('chinese',350).name);
 //using call() to invoke a function and specifying the this value
 
@@ -34,3 +37,10 @@ function display(){
 
 display.call();  // Logs "globprop value is Wisen"
 // if "use strict" is used then it will throw a error with undefined and will not substitute with globalThis
+
+
+// ------------------- Output-------------------------------------
+// Food { name: 'Indian', price: 400, category: 'Food' }
+// chinese
+// Tiger typically sleep between 2 to 4 hour
+// globProp value is Wisen
